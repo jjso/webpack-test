@@ -1,0 +1,9 @@
+﻿body {
+    background: yellow;
+    div{
+	background-color: red;
+	&:nth-child(2){
+		background-color: blue;
+	}
+    }
+}
